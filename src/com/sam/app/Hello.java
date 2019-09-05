@@ -9,8 +9,8 @@ public class Hello {
 
         int totalTax = (int)((e1.getEmpSalary() + e2.getEmpSalary()) * 0.25);
 
-        e1.setEmpSalary(e1.getEmpSalary() - (int)(e1.getEmpSalary() * 0.15));
-        e2.setEmpSalary(e2.getEmpSalary() - (int)(e2.getEmpSalary() * 0.15));
+        e1.setEmpSalary(e1.getEmpSalary() - (int)(e1.getEmpSalary() * 0.1));
+        e2.setEmpSalary(e2.getEmpSalary() - (int)(e2.getEmpSalary() * 0.1));
         System.out.println("Total tax paid: "+totalTax);
     }
 }
